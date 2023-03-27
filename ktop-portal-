@@ -1,0 +1,12 @@
+[0;1;31m×[0m xdg-desktop-portal-hyprland.service - Portal service (Hyprland implementation)
+     Loaded: loaded (]8;;file://gachi/usr/lib/systemd/user/xdg-desktop-portal-hyprland.service/usr/lib/systemd/user/xdg-desktop-portal-hyprland.service]8;;; static[0;1;32m[0m)
+     Active: [0;1;31mfailed[0m (Result: exit-code) since Tue 2023-03-14 23:27:27 +04; 1min 54s ago
+    Process: 5441 ExecStart=/usr/lib/xdg-desktop-portal-hyprland [0;1;31m(code=exited, status=1/FAILURE)[0m
+   Main PID: 5441 (code=exited, status=1/FAILURE)
+        CPU: 29ms
+
+Mar 14 23:27:27 gachi systemd[771]: xdg-desktop-portal-hyprland.service: Scheduled restart job, restart counter is at 5.
+Mar 14 23:27:27 gachi systemd[771]: Stopped Portal service (Hyprland implementation).
+Mar 14 23:27:27 gachi systemd[771]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mxdg-desktop-portal-hyprland.service: Start request repeated too quickly.[0m
+Mar 14 23:27:27 gachi systemd[771]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mxdg-desktop-portal-hyprland.service: Failed with result 'exit-code'.[0m
+Mar 14 23:27:27 gachi systemd[771]: [0;1;31m[0;1;39m[0;1;31mFailed to start Portal service (Hyprland implementation).[0m
